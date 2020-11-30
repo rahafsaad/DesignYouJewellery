@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--  موقع مصمم بلغة الواجهات الامامية -->
+<!-- Front End Website -->
+
+
+<!--   الكود سهل جدا وقابل للقراءة  -->
+<!-- The code is very simple and readable  -->
+
+
+<!--  كتابة الكود عمل فردي واسمح بنشره واستخدامه   -->
+<!-- I wrote the code individually & I ALLOW others to share it & use it  -->
+
+
+<html>
+<head>
+<link rel="icon" href="favicon.png">
+ <meta charset="UTF-8">
+<title>صمم مجوهراتك </title>
+
+<!--   جزء التنسيق  -->
+<link rel="stylesheet" href="css/style.css">
+
+
+  <!--  هذا الجزء لكود الشات بوت --> 
+    	<!--  تم انشاءه باستخدام Collect.chat -->
+
+<script async>(function(w, d) { w.CollectId = "5f42380eb08dec28f8442ad9"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+
+</head>
+<body>
+<div class="tr"><a href="designYourJewelleryEnglish.html">✎ English </a></div>
+
+<!-- هذا الكلاس وضع بغرض تنسيق خلفية الموقع بحيث يحتوي على الصورة والنص بننسيق مرن -->
+<div class="content center">
+<img src="art.png" > <br><br>
+<h1> صمم مجوهراتك </h1>
+<h3 > صمم مجوهراتك الخاصة بك في ثواني! استخدم أدوات القائمة التي تظهر على الجنب لتصميم المجوهرات
+</h3>
+</div>
+
+<hr>
+
+<!-- هنا قائمة الادوات التي تظهر بجانب الصفحة -->
+
+<!-- السلسال-->
+
+<div id="mySidenav" class="sidenav">
+  <a class="closebtn" onclick="closeNav()">&times;</a>
+
+  <a><span class="dropdown"> السلسال <span  class="dropbtn"></span>
+  <span class="dropdown-content" >
+   <img src="neck61.png" onclick="changeImageToNecklace(this.id)" id="img9"
+    height="50px" width="50px">  
+     <img src="neck62.png" onclick="changeImageToNecklace(this.id)" id="img10"
+    height="50px" width="50px">  
+     <img src="neck63.png" onclick="changeImageToNecklace(this.id)" id="img11"
+    height="50px" width="50px">  
+     <img src="neck64.png" onclick="changeImageToNecklace(this.id)" id="img12"
+    height="50px" width="50px">  
+  
+ <img src="necklace00.png" onclick="changeImageToNecklace(this.id)" id="img1"
+    height="50px" width="50px">  
+    <img src="neck33.png" onclick="changeImageToNecklace(this.id)" 
+    height="50px" width="50px" id="img2">
+      <img src="neck0.png" onclick="changeImageToNecklace(this.id)" 
+    height="50px" width="50px" id="img3">
+      <img src="neck2.png" onclick="changeImageToNecklace(this.id)" 
+    height="50px" width="50px" id="img4">
+      <img src="neck3.png" onclick="changeImageToNecklace(this.id)" 
+    height="50px" width="50px" id="img5">
+      <img src="neck09.png" onclick="changeImageToNecklace(this.id)" 
+    height="50px" width="50px" id="img6">  <img src="neck7.png" onclick="changeImageToNecklace(this.id)" 
+    height="50px" width="50px" id="img7">
+    <img src="neck06.png" onclick="changeImageToNecklace(this.id)" 
+    height="50px" width="50px" id="img8">
+   
+    <br>
+     <label >  الحجم </label><input type="range" min="300" max="500"id="Necklace" onchange="img_size(this.id)">
+           <button onclick="document.getElementById('getval').click()" > ارفع صورة</button>
+     
+     <input type="file" onchange="readURLnecklace()"id='getval'
+     style="display:none" >
+ <br>
+
+    <!--  صورة القمامة -->
+      <img src="xicon.png" id="Necklace"onclick="remove_imgNB(this.id)" 
+    height="25px" width="25px">
+ 
+  </span>
+
+</a>
+<!--  الاسوارة-->
+<a><span class="dropdown"> الاسوارة <span  class="dropbtn"></span>
+  <span class="dropdown-content" >
+    
+ <img src="bracelet00.png" onclick="changeImageToBracelet(this.id)" id="bracelet1"
+    height="50px" width="50px">
+     <img src="bracelet01.png" onclick="changeImageToBracelet(this.id)" id="bracelet2"
+    height="50px" width="50px">
+     <img src="bracelet056.png"  onclick="changeImageToBracelet(this.id)" id="bracelet3"
+    height="50px" width="50px">
+     <img src="bracelet05.png"  onclick="changeImageToBracelet(this.id)"id="bracelet4"
+    height="50px" width="50px">
+         <img src="bracelet81.png"  onclick="changeImageToBracelet(this.id)"id="bracelet5"
+    height="50px" width="50px">
+         <img src="bracelet91.png"  onclick="changeImageToBracelet(this.id)"id="bracelet6"
+    height="50px" width="50px">
+         <img src="bracelet92.png"  onclick="changeImageToBracelet(this.id)"id="bracelet7"
+    height="50px" width="50px">
+         <img src="bracelet93.png"  onclick="changeImageToBracelet(this.id)"id="bracelet8"
+    height="50px" width="50px">
+         <img src="bracelet94.png"  onclick="changeImageToBracelet(this.id)"id="bracelet9"
+    height="50px" width="50px">
+         <img src="bracelet82.png"  onclick="changeImageToBracelet(this.id)"id="bracelet10"
+    height="50px" width="50px">
+    
+      <br>
+    <label > الحجم </label><input type="range" min="100" max="600"id="Bracelet" onchange="img_size(this.id)">
+    
+    <button onclick="document.getElementById('bracelet').click()" > ارفع صورة </button>
+     
+     <input type="file" onchange="readURLbracelet()"id='bracelet'
+     style="display:none" >
+ <br>
+
+      <!--  صورة القمامة -->
+      <img src="xicon.png" onclick="remove_imgNB(this.id)" id="Bracelet" 
+    height="25px" width="25px">
+ 
+  </span>
+
+</a>
+<!--  التعليقة -->
+ <a><span class="dropdown"> التعليقة <span  class="dropbtn"></span>
+  <span class="dropdown-content" >
+ <img src="charm0.png" onclick="changeCharm(this.id)" id="charm1"
+    height="50px" width="50px">
+     <img src="charm8i.png" onclick="changeCharm(this.id)" id="charm2"
+    height="50px" width="50px">
+     <img src="charm2.png" onclick="changeCharm(this.id)" id="charm3"
+    height="50px" width="50px">
+     <img src="charm3.png" onclick="changeCharm(this.id)" id="charm4"
+    height="50px" width="50px">
+     <img src="charm5.png" onclick="changeCharm(this.id)" id="charm5"
+    height="50px" width="50px">
+     <img src="charm6.png" onclick="changeCharm(this.id)" id="charm6"
+    height="50px" width="50px">
+     <img src="charm7.png" onclick="changeCharm(this.id)" id="charm7"
+    height="50px" width="50px">
+     <img src="charm8.png" onclick="changeCharm(this.id)" id="charm8"
+    height="50px" width="50px">
+        <img src="charm9.png" onclick="changeCharm(this.id)" id="charm9"
+    height="50px" width="50px">
+        <img src="charm10.png" onclick="changeCharm(this.id)" id="charm10"
+    height="50px" width="50px">
+        <img src="charm11.png" onclick="changeCharm(this.id)" id="charm11"
+    height="50px" width="50px">
+        <img src="charm12.png" onclick="changeCharm(this.id)" id="charm12"
+          height="50px" width="50px">
+            <img src="charm13.png" onclick="changeCharm(this.id)" id="charm13"
+    height="50px" width="50px">
+        <img src="charm14.png" onclick="changeCharm(this.id)" id="charm14"
+    height="50px" width="50px">
+        <img src="charm15.png" onclick="changeCharm(this.id)" id="charm15"
+    height="50px" width="50px">
+        <img src="charm29.png" onclick="changeCharm(this.id)" id="charm29"
+    height="50px" width="50px">
+        <img src="charm17.png" onclick="changeCharm(this.id)" id="charm17"
+    height="50px" width="50px">
+        <img src="charm18.png" onclick="changeCharm(this.id)" id="charm18"
+    height="50px" width="50px">
+        <img src="charm19.png" onclick="changeCharm(this.id)" id="charm19"
+    height="50px" width="50px">
+        <img src="charm20.png" onclick="changeCharm(this.id)" id="charm20"
+    height="50px" width="50px">
+       <img src="charm35.png" onclick="changeCharm(this.id)" id="charm21"
+    height="50px" width="50px">
+       <img src="charm34.png" onclick="changeCharm(this.id)" id="charm22"
+    height="50px" width="50px">
+       <img src="charm30.png" onclick="changeCharm(this.id)" id="charm23"
+    height="50px" width="50px">
+       <img src="charm31.png" onclick="changeCharm(this.id)" id="charm24"
+    height="50px" width="50px">
+       <img src="charm23.png" onclick="changeCharm(this.id)" id="charm25"
+    height="50px" width="50px">
+       <img src="charm27.png" onclick="changeCharm(this.id)" id="charm26"
+    height="50px" width="50px">
+       <img src="charm26.png" onclick="changeCharm(this.id)" id="charm27"
+    height="50px" width="50px">
+       <img src="charm25.png" onclick="changeCharm(this.id)" id="charm28"
+    height="50px" width="50px">
+      <img src="charm24.png" onclick="changeCharm(this.id)" id="charm33"
+    height="50px" width="50px">
+      <img src="charm22.png" onclick="changeCharm(this.id)" id="charm30"
+    height="50px" width="50px">
+      <img src="charm21.png" onclick="changeCharm(this.id)" id="charm31"
+    height="50px" width="50px">
+      <img src="charm4.png" onclick="changeCharm(this.id)" id="charm32"
+    height="50px" width="50px">
+    <br>
+
+   <label > الحجم </label><input type="range" min="30" max="150"id="Charmsize" onchange="Charm_size()">
+<br>
+     <button onclick="document.getElementById('getimg').click()" > ارفع صورة </button>
+     
+     <input type="file" onchange="readURLcharm()"id='getimg'
+     style="display:none" >
+ <br>
+
+      <!--  صورة القمامة -->
+      <img src="xicon.png" onclick="remove_Charm()" 
+    height="25px" width="25px">
+ 
+  </span>
+
+</a>
+<!-- الحجر الكريم -->
+<a><span class="dropdown"> الحجر الكريم  <span  class="dropbtn"></span>
+  <span class="dropdown-content" >
+ <img src="gemstone13.png" onclick="changeGemstone(this.id)" id="gemstone"
+    height="50px" width="50px">
+     <img src="gemstone2.png" onclick="changeGemstone(this.id)" id="gemstone2"
+    height="50px" width="50px">
+     <img src="gemstone3.png" onclick="changeGemstone(this.id)" id="gemstone3"
+    height="50px" width="50px">
+     <img src="gemstone4.png"onclick="changeGemstone(this.id)" id="gemstone4"
+    height="50px" width="50px">
+     <img src="gemstone5.png"onclick="changeGemstone(this.id)"  id="gemstone5"
+    height="50px" width="50px">
+     <img src="gemstone6.png" onclick="changeGemstone(this.id)"  id="gemstone6"
+    height="50px" width="50px">
+     <img src="gemstone7.png" onclick="changeGemstone(this.id)" id="gemstone7"
+    height="50px" width="50px">
+     <img src="gemstone8.png"onclick="changeGemstone(this.id)"  id="gemstone8"
+    height="50px" width="50px">
+     <img src="gemstone32.png"onclick="changeGemstone(this.id)"  id="gemstone9"
+    height="50px" width="50px">
+     <img src="gemstone10.png"onclick="changeGemstone(this.id)"  id="gemstone10"
+    height="50px" width="50px">
+
+     <img src="gemstone12.png"onclick="changeGemstone(this.id)"  id="gemstone12"
+    height="50px" width="50px">
+
+     <img src="gemstone39.png"onclick="changeGemstone(this.id)"  id="gemstone15"
+    height="50px" width="50px">
+    <br>
+   <label > الحجم </label><input type="range" min="20" max="140"id="Gemstonesize" onchange="gemstone_size()">
+<br>
+     <button onclick="document.getElementById('getgem').click()" > ارفع صورة</button>
+     
+     <input type="file" onchange="readURLgemstone()"id='getgem'
+     style="display:none" >
+ <br>
+
+     <!--  صورة القمامة -->
+      <img src="xicon.png" onclick="remove_Gemstone()" 
+    height="25px" width="25px">
+ 
+  </span>
+
+</a>
+
+<!--  النص-->
+   <a><input type="color"  value="#D09A9A" id="tclr" onchange="tcolor()"><span class="dropdown"> النص  
+<span  class="dropbtn"></span>
+  <span class="dropdown-content" >
+       <label > النص </label><input type="text" id="txt" onchange="ttext()">
+       <br>
+
+     <label for="tsize" > الحجم </label><input type="range" id="tsize" onchange="tsize()">
+     <br>
+      <label for="topc"> الوضوح </label><input min="0" max="9" type="range" id="topc" onchange="topc()">
+   <br>
+ <input onclick="ta()" type="radio" id="arial" name="tstyle" value="Arial">
+<label  style=" font-family: Arial, Helvetica, sans-serif;" for="arial">Arial</label><br>
+<input onclick="tf()" type="radio" id="fantasy" name="tstyle" value="Fantasy">
+<label for="fantasy">Fantasy</label><br>
+<input type="radio"onclick="tm()"  id="monospace" name="tstyle" value="Monospace">
+<label style=" font-family:  monospace;"for="monospace">Monospace</label>  <br>
+<img src="xicon.png" onclick="removeText()" 
+    height="25px" width="25px">
+    
+   
+   </a>
+   <!-- الخلفية -->
+  <a><input type="color" value="#ffffff" onchange="backgroundColor()" id="clr"><span class="dropdown"> الخلفية 
+  <span  class="dropbtn"></span>
+  <span class="dropdown-content" >
+  <br>
+
+       <img src="handi.png" onclick="changeBackground(this.id)" id="wrist3"
+    height="50px" width="50px">
+        <img src="cdn.png" onclick="changeBackground(this.id)" id="wrist4"
+    height="50px" width="50px">
+         <img src="modeln.png" onclick="changeBackground(this.id)" id="neck1"
+    height="50px" width="50px"> 
+     <img src="modelww.png" onclick="changeBackground(this.id)" id="neck2"
+    height="50px" width="50px">  
+      
+ 
+    <br>
+        <!--  صورة القمامة -->
+      <img src="xicon.png" onclick="remove_background()" 
+    height="25px" width="25px">
+ 
+  </span>
+
+</a>
+    <!-- اللوح -->
+   <a class="bc"  id="all"onclick="remove_imgNB(this.id),remove_Charm(),remove_Gemstone(),removeText(),remove_Symbol(),remove_background(),changeBackgroundToWhite()"> لوح جديد </a> 
+  
+
+</div>
+<img class="arrow" src="arrow-arabic.png" height="200px" width="200px"><br>
+ <span style="font-size:28px;cursor:pointer; font-family: Copperplate,Copperplate Gothic Light,fantasy;  font-variant-caps: all-small-caps;color:#cdb1bf; opacity:0.8;" onclick="openNav()">&#9776; الأدوات </span>
+
+
+ 
+   <!--  هذا اللوح الذي يحتوي على التصميم -->
+      <!--  تم انشاء عنصر لكل نوع مجوهرات ماعدا السلسال والاسوارة يتشاركون نفس الصورة -->    
+        <!-- لهذا السبب تم تعريف المتغير img_type  -->
+        <!-- القيمة المبداية لعرض الصور هي none ويتم تغييرها الى عرض عند الضغط على صورة بالقائمة او رفع صورة من الجهاز -->
+  
+         
+<div id="myCanvas"class="square center"><span id="myNB"><img id="myNB_img" src=""height="300px" style="display:none;"width="300px"></span><span id="myText">
+  <div id="myTextheader" style="color:#D09A9A;"></div></span><span id="myimg"><img id="charm_img" src=""height="120px" style="display:none;"width="120px"></span>  <span id="mysym"><img id="symbol_img" src=""height="120px" style="display:none;"width="120px"></span><span id="mygem"><img id="gemstone_img" src=""height="120px" style="display:none;"width="120px"></span>
+</div>
+</div>
+
+ <script src="javaScript/min.js"></script>
+  <script src="javaScript/move.js"></script>
+  <!-- هنا النهاية تم شرح الاجزاء الاصعب في الكود --> 
+    <!--  لاي استفسار او سؤال او طلب مساعدة ايميلي -->   
+    <!--  rahafsaad8@gmail.com -->
+<br><br>
+<div id="footer">&copy; Rahaf "2020"</div> 
+</body>
+</html>
